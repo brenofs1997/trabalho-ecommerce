@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "ListaProdutos";
+    Layout = "~/Views/Share/_Layout.cshtml";
+}
+@section js{
+    <script src="~/views/cadastrarProduto/index.js"></script>
+}
+
+<div class="col-lg-4 col-md-6 mb-4">
+    <select id="selCategoria" onchange="index.ListarProduto(this.value)">
+    </select>
+    <select id="selProduto">
+    </select>
+</div>
+
+
+    <div  class="container">
+        <div class="row">
+         
+
+            <!-- /.col-lg-3 -->
+
+          
+
+                
+
+
+                <!-- /.row -->
+                <div id="contDIV" style="display:none"  class="container-fluid d-flex flex-wrap">
+
+                </div>
+            
+            <!-- /.col-lg-9 -->
+
+        </div>
+        <!-- /.row -->
+    </div>
+   
+
