@@ -178,7 +178,7 @@
             headers: {
                 "Content-Type": "application/json; charset=utf-8"
             },
-            credentials: 'include', //inclui 
+            credentials: 'include', ///inclui 
         };
 
         fetch("/CategoriaProduto/listar?pt=" + pt, config)
